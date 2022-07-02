@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="jUU-hR-bWF">
+                                <rect key="frame" x="-27.5" y="98" width="469" height="700.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Persian Spy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8g-QC-yjh">
+                                        <rect key="frame" x="86.5" y="0.0" width="296.5" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="296.5" id="RbR-0H-D9D"/>
+                                            <constraint firstAttribute="height" constant="72" id="qAg-8r-0VV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <color key="highlightedColor" systemColor="secondarySystemBackgroundColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spy" translatesAutoresizingMaskIntoConstraints="NO" id="mlM-Px-maa">
+                                        <rect key="frame" x="0.0" y="112" width="469" height="416"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="416" id="2Eh-bq-fRk"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="416" id="Bk3-XD-s1R"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="469" id="H4J-Fr-JWg"/>
+                                            <constraint firstAttribute="width" secondItem="mlM-Px-maa" secondAttribute="height" multiplier="469:416" id="KSY-en-8rp"/>
+                                            <constraint firstAttribute="width" constant="469" id="Poe-mf-Yxq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسپای فارسی" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Coo-ze-H8c">
+                                        <rect key="frame" x="88" y="568" width="293.5" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="293.5" id="n4O-xB-tRI"/>
+                                            <constraint firstAttribute="height" constant="72" id="tR0-CV-Stv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developer: Rambod Azimi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMr-eW-1cr">
+                                        <rect key="frame" x="136.5" y="680" width="196" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="196" id="FT7-0O-cOr"/>
+                                            <constraint firstAttribute="height" constant="20.5" id="JOc-2m-92a"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemOrangeColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="iMr-eW-1cr" firstAttribute="centerX" secondItem="jUU-hR-bWF" secondAttribute="centerX" id="E0p-9L-o8s"/>
+                                    <constraint firstItem="iMr-eW-1cr" firstAttribute="centerY" secondItem="jUU-hR-bWF" secondAttribute="centerY" constant="340" id="FIR-Xj-TmT"/>
+                                    <constraint firstItem="R8g-QC-yjh" firstAttribute="centerX" secondItem="jUU-hR-bWF" secondAttribute="centerX" id="FXD-dR-jMi"/>
+                                    <constraint firstItem="mlM-Px-maa" firstAttribute="centerX" secondItem="jUU-hR-bWF" secondAttribute="centerX" id="TMB-sE-Etp"/>
+                                    <constraint firstItem="R8g-QC-yjh" firstAttribute="centerY" secondItem="jUU-hR-bWF" secondAttribute="centerY" constant="-314.25" id="Ull-ve-bb3"/>
+                                    <constraint firstItem="mlM-Px-maa" firstAttribute="centerY" secondItem="jUU-hR-bWF" secondAttribute="centerY" constant="-30.25" id="Z33-MY-pdc"/>
+                                    <constraint firstItem="Coo-ze-H8c" firstAttribute="centerY" secondItem="jUU-hR-bWF" secondAttribute="centerY" constant="253.75" id="iXj-AS-twW"/>
+                                    <constraint firstItem="Coo-ze-H8c" firstAttribute="centerX" secondItem="jUU-hR-bWF" secondAttribute="centerX" id="ihZ-xQ-A5G"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.30020129680000002" green="0.34455958009999998" blue="0.64709222320000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="jUU-hR-bWF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Dsk-lO-1eg"/>
+                            <constraint firstItem="jUU-hR-bWF" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="EVG-V4-Qse"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Spy" width="512" height="512"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
